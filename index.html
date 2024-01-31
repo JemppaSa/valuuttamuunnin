@@ -1,13 +1,44 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!DOCTYPE html>
+<html lang="fi">
 
-<script src="valuuttamuunnin.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Valuuttamuunnin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="col-lg-8 mx-auto p-4 py-md-5">
+
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom text-uppercase">
+            <span class="fs-4 lead leftp">Reaaliaikainen Valuuttamuunnin</span>
+        </header>
+
+        <main>
+
+            <p class="fs-5 col-md-8 lead">Tällä sivulla voit tarkistaa valuutta muunnoksia.</p>
+
+            <p class="fs-5 col-md-8 lead">
+                <br> Valuuttojen arvot päivittyy 24h välein.
+            </p>
+
+        </main>
+
+        <footer class="d-flex align-items-center pb-3 mb-5 border-top text-uppercase">
+        <p > Jenna 2024 - Data source 
+        <a href="https://www.exchangerate-api.com%22%3Erates/ ">By Exchange Rate API</a></p>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="powerapi.js" defer></script>
 </body>
+
 </html>
