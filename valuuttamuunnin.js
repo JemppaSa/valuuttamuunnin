@@ -28,4 +28,4 @@ function laske() {
     document.getElementById("result").value = result
     document.getElementById("teksti").innerHTML = value + " " + currencyFrom.value + " on " + result + " " + currencyTo.value
 }
-//fetchData()
+fetchData()
