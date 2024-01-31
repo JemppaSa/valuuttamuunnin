@@ -1,12 +1,20 @@
-header, footer {
-    background-color:rgb(231, 158, 213);
+header,
+footer {
+    background-color: rgb(231, 158, 213);
     padding: 10px;
     color: rgb(255, 255, 255);
     border-radius: 10px;
 }
-a{
-color :greenyellow
+
+a {
+    color: greenyellow
 }
+
+.form-control:focus {
+    border-color: rgb(231, 158, 213);
+    box-shadow: 0 0 0 0.25rem rgba(231, 158, 213, .25);
+}
+
 .leftp {
     padding-left: 10px;
 }
@@ -19,4 +27,3 @@ color :greenyellow
 
     color: white
 }*/
-
